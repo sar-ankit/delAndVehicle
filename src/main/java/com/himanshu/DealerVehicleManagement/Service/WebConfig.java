@@ -16,7 +16,7 @@ public class WebConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedMethods("GET","POST","PUT","DELETE","OPTIONS")
-                        .allowedOrigins("https://dealer-frontend-jet.vercel.app/payments")
+                        .allowedOrigins("https://dealer-frontend-jet.vercel.app/api")
                         .allowedMethods("*");
 
 
